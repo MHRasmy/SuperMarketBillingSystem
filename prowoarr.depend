@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1651422117 source:f:\cpp\prowoarr\prowoarr\main.cpp
+	<iostream>
+	<conio.h>
+	<string>
+	<string.h>
+	<fstream>
+	<stdlib.h>
+	<ctime>
+	<iostream>
+	<ctime>
+
