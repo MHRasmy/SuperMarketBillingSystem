@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1665765853 source:f:\cpp\projects\super-market-billing-system\supermarketbillingsystem\main.cpp
+	<iostream>
+	<conio.h>
+	<string>
+	<string.h>
+	<fstream>
+	<stdlib.h>
+	<ctime>
+	"marketitem.h"
+
+1665765817 f:\cpp\projects\super-market-billing-system\supermarketbillingsystem\marketitem.h
+	<iostream>
+
+1665765815 source:f:\cpp\projects\super-market-billing-system\supermarketbillingsystem\marketitem.cpp
+	"marketitem.h"
+

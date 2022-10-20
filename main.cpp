@@ -5,78 +5,13 @@
 #include <fstream>
 #include <stdlib.h>
 #include <ctime>
-/*
-#include <iostream>
-#include <ctime>
-
-using namespace std;
-
-int main() {
-   // current date/time based on current system
-   time_t now = time(0);
-
-   // convert now to string form
-   char* dt = ctime(&now);
-
-   cout << "The local date and time is: " << dt << endl;
-The local date and time is: Sat Jan  8 20:07:41 2011
-*/
+#include "marketitem.h"
 
 using namespace std;
 
 #define product_file "product.txt"
 #define temp_file "temp.txt"
-#define bell_file "bell.txt"
-
-
-struct marketitem{
-    int num, quantity;
-    string name;
-    string manufacture_name;
-    float price, weight;
-
-
-    void add_item(){
-    cout << "Enter the item Number: ";
-    cin >> num;
-    cout << "Enter the item Name: ";
-    cin >> name;
-    cout << "Enter the item Manufacture Name: ";
-    cin >> manufacture_name;
-    cout << "Enter product Weight :";
-    cin >> weight;
-    cout << "Enter the item Price: ";
-    cin >> price;
-    cout << "Enter the item Quantity: ";
-    cin >> quantity;
-    }
-
-    void display_item(){
-        cout << "The item Number: " << num << "\n";
-        cout << "The item Name: " << name << "\t\t\t";
-        cout << "The item Manufacture Name: " << manufacture_name << "\n";
-        cout << "The item Price: " << price << "\t\t\t";
-        cout << "The item Quantity: " << quantity << "\n";
-        cout << "The item Weight: " << weight<< "\n";
-    }
-    int item_num(){
-        return num;
-    }
-    string item_name(){
-        return name;
-    }
-    float item_price(){
-        return price;
-    }
-    int item_quantity(){
-        return quantity;
-    }
-    string item_manufacture_name(){
-        return manufacture_name;
-    }
-
-};
-
+#define bill_file "bill.txt"
 
 marketitem item;
 fstream pf;
@@ -343,7 +278,7 @@ void main_login()
             exit(0);
 
         default:
-            //system("cls");
+            system("cls");
             cout << "\033[2J\033[1;1H";
             cout << "\t\t\t ERROR!! not a choice\n\n";
             break;
@@ -352,6 +287,7 @@ void main_login()
     }
 
 }
+
 // login function definition
 void login()
 {
@@ -412,6 +348,7 @@ void registration()
     main_login();
 
 }
+
 // forgot password function definition
 void forgot()
 {
@@ -467,4 +404,3 @@ void forgot()
             forgot();
     }
 }
-
