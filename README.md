@@ -16,7 +16,7 @@ This is a super market billing system used to handle the market items in files a
 ## How To Run The Project
 [(Back to top)](#How-to-run-the-project)
 Try using CodeBlocks to run the project with theses steps:
-1. Clong the Project repository link (https://github.com/MHRasmy/SuperMarketBillingSystem-OOP.git) using `**git clone [repository_link]`** in your terminal.
+1. Clong the Project repository link (https://github.com/MHRasmy/SuperMarketBillingSystem-OOP.git) using **`git clone [repository_link]`** in your terminal.
 2. Download CodeBlocs (MinGW version) from the following [link](https://www.codeblocks.org/downloads/), then install it.
 3. Open project and navigation to the project.
 4. Hit the run button and try the system.
