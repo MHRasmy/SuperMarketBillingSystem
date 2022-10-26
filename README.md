@@ -10,7 +10,9 @@ This is a super market billing system used to handle the market items in files a
 
 # Development
 [(Back to top)](#development) The development process has gone through these steps:
+
 1- A class was created to represent the market. The interface and implementation were seperated in the [header_file](https://github.com/MHRasmy/SuperMarketBillingSystem-OOP/blob/main/marketitem.h) and the [source_file](https://github.com/MHRasmy/SuperMarketBillingSystem-OOP/blob/main/marketitem.cpp).
+
 2- In the [main_source_file](https://github.com/MHRasmy/SuperMarketBillingSystem-OOP/blob/main/main.cpp), functions were created to enable editing in the file (adding items, searching, deleteing, buying,...). Also, Registration and login panels were created to enabling creating user and admin profiles
 
 ## How To Run The Project
